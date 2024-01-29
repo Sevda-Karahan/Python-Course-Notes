@@ -132,3 +132,17 @@ print(sppos) # 31
 
 host = data[atpos+1 : sppos]
 print(host) # uct.ac.za
+
+#--------------------------------------------------------------------#
+
+str = 'X-DSPAM-Confidence: 0.8475 '
+
+atpos = str.find(' ')
+print(atpos) # 19
+
+sppos = str.find(' ', atpos+1)
+print(sppos) # 26
+
+snum = str[atpos+1 : sppos]
+fnum = float(snum)
+print(fnum) # 0.8475
