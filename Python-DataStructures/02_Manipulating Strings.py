@@ -57,7 +57,7 @@ dir(stuff)
 # https://docs.python.org/3/library/stdtypes.html#string-methods
 
 #####################################################################
-
+"""
 str.capitalize()
 str.center(width[, fillchar])
 str.endswith(suffix[, start[, end]])
@@ -69,7 +69,7 @@ str.lower()
 str.rstrip([chars])
 str.strip([chars])
 str.upper()
-
+"""
 #####################################################################
 
 # Searching a string
