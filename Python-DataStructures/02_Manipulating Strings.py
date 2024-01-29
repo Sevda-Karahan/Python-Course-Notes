@@ -146,3 +146,13 @@ print(sppos) # 26
 snum = str[atpos+1 : sppos]
 fnum = float(snum)
 print(fnum) # 0.8475
+
+#--------------------------------------------------------------------#
+
+str = 'X-DSPAM-Confidence: 0.8475 '
+ipos = str.find(':')
+print(ipos) # 18
+piece = str[ipos+1:]  # 0.8475 ,    (or piece = str[ipos+2:] #0.8475)
+print(piece) # 0.8475
+value = float(piece)
+print(value) #0.8475
