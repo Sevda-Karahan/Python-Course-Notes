@@ -140,5 +140,3 @@ y = re.findall('\$[0-9.]+', x)
 print(y) # ['$10.00']
 
 #https://www.py4e.com/lectures3/Pythonlearn-11-Regex-Handout.txt
-
-########################################################
